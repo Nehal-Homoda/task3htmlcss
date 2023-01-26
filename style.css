@@ -1,0 +1,35 @@
+.button
+{
+    width: 120px;
+    font-size: 17px;
+    border-radius: 5px ;
+    margin: auto;
+}
+.button:hover {
+    position: relative;
+    color: black;
+    transition: all 1s ease;
+    animation: animate-button; 
+    animation-duration: 2s;
+    border-radius: 50%;
+}
+
+/* Animation keyframes */
+@keyframes animate-button {
+    0% 
+    {
+        position: relative;
+    }
+    50%
+    {
+        color:blueviolet
+    }
+    100% 
+    {
+        width: 300px;
+        font-size: 20px;
+        position: absolute;
+        color: rgb(44, 44, 148);
+        font-family: cursive;
+    }
+}
